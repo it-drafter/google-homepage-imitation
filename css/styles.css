@@ -55,7 +55,7 @@ input{
     font-family: arial, sans-serif;
     font-size: 13px;
     font-weight: 500;
-    /* Pozicija tooltip-a*/
+    /* tooltip position */
     position: absolute;
     z-index: 1;
     top: 100%;
@@ -242,7 +242,7 @@ input:focus{
 .tooltip:not(#candybox) .tooltiptext::after{
     content: " ";
     position: absolute;
-    bottom: 100%;  /* strelica na vrhu tooltip-a */
+    bottom: 100%;  /* the arrow on top of the tooltip */
     left: 50%;
     margin-left: -5px;
     border-width: 5px;
