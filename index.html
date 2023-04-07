@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="sr-Cyrl-CS">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/styles.css">
+
+    <script src="./js/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="div-header">
+            <a href="#" class="header-link">Gmail</a>
+            <a href="#" class="header-link">Слике</a>
+            <a href="#" class="candybox tooltip" id="candybox">
+                <svg width="20" height="20">
+                    <path d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"></path>
+                </svg>
+                <span class="tooltiptext">Google апликације</span>
+            </a>
+            <a href="#" class="prijavitese">Пријавите се</a>
+        </div>
+    </header>
+
+
+    <main>
+        <div class="div-main">
+                <img src="./images/googlelogo_color_272x92dp.png" alt="Google">
+            
+                <div class="searchbox">
+                    <div class="magnifier">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="input">
+                        <input type="text" id="inputfield" name="inputfield" title="Претражи" size="30" autofocus>
+                    </div>
+
+                    <div class="delete tooltip" id="del">
+                        <i class="fa-solid fa-xmark fa-lg"></i>
+                        <span class="tooltiptext">Обриши</span>
+                    </div>
+
+                    <span class="verticalbar" id="vertbar">&vert;</span>
+
+                    <a href="#">
+                        <div class="keyboard tooltip">
+                            <i class="fa-solid fa-keyboard"></i>
+                            <span class="tooltiptext">Алатке за унос</span>
+                        </div>
+                        
+                    </a>
+
+                    <a href="#">
+                        <div class="microphone tooltip">
+                            <i class="fa-solid fa-microphone fa-lg"></i>
+                            <span class="tooltiptext">Претражујте гласом</span>
+                        </div>
+                        
+                    </a>
+
+                    <a href="#">
+                        <div class="camera tooltip">
+                            <i class="fa-solid fa-camera fa-lg"></i>
+                            <span class="tooltiptext">Претрага према слици</span>
+                        </div>
+                        
+                    </a>
+                </div>
+
+                <div class="searchbuttons">
+                    <a href="#" class="searchbutton">Google претрага</a>
+                    <a href="#" class="searchbutton">Из прве руке</a>
+                </div>
+
+                <div class="jezici">
+                    <p>Google се нуди на: &nbsp; <a href="#">srpski</a> &nbsp; <a href="#">English</a></p>
+                </div>
+        </div>
+    </main>
+
+
+    <footer>
+        <div class="footertop"><span class="srbija">Србија</span></div>
+
+        <div class="footerbottom">
+            <div class="footerleft">
+                <a href="#">Основни подаци</a>
+                <a href="#">Оглашавање</a>
+                <a href="#">За посао</a>
+                <a href="#">Како ради Претрага</a>
+            </div>
+            <div class="footerright">
+                <a href="#">Приватност</a>
+                <a href="#">Услови</a>
+                <a href="#">Подешавања</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
