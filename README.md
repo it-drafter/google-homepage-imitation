@@ -1,6 +1,6 @@
 # Google Homepage Imitation
 
-Responsive Google homepage made in HTML, CSS and a touch of JavaScript.
+Responsive Google homepage made in HTML, CSS and a touch of JavaScript. A couple of Font Awesome icons were used.
 
 To make things interesting, I did it the 'old school' CSS way - by using only relative, absolute and fixed positioning. No flexbox or grid layout models whatsoever.
 
