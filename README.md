@@ -4,13 +4,11 @@ Google homepage made in HTML, CSS and a touch of JavaScript. I also used a coupl
 
 To make things interesting, I did it the 'old school' CSS way - by using only relative, absolute and fixed positioning. No flexbox or grid layout models whatsoever.
 
-
 ## Demo
 
-You can see what it looks like [HERE](http://drafter.atwebpages.com/google-homepage-imitation/).
+You can see what it looks like [HERE](https://it-drafter.github.io/google-homepage-imitation/).
 
 Buttons and links don't do anything. That's how you'll know for sure that it is not real Google.
-
 
 ## Run Locally
 
